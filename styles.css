@@ -16,7 +16,11 @@
   
   @media (max-width: 768px) {
     #about p {
-      text-align: none;
+      text-align: left;
+    }
+
+    .project p {
+      text-align: left;
     }
   }
     
