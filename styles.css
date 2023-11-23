@@ -15,14 +15,12 @@
   }
   
   @media (max-width: 768px) {
-    #about p {
-      text-align: left;
-    }
-
+    #about p,
     .project p {
-      text-align: left;
+      text-align: unset;
     }
   }
+  
     
   
   header {
