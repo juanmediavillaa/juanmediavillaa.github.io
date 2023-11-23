@@ -24,6 +24,10 @@
   text-align: center; /* Center-align the navigation */
   }
 
+  nav h1 {
+    margin-bottom: 20px; /* Adjust this value as needed */
+  }
+
   nav ul {
     list-style: none;
     display: inline-block;
@@ -66,19 +70,19 @@
   }
   
   .project {
-    border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 8px; 
     transition: box-shadow 0.3s ease; 
     transition: background-color 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.5); 
   }
   
   .project:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: rgb(226, 250, 242); 
+    background-color: rgba(255, 255, 255, 0.75); 
   }
-  
+
   footer {
     text-align: center;
     padding: 10px;
@@ -96,5 +100,35 @@
     height: 30px; /* Adjust the height if needed */
   }
 
+  /* New Styles for Contact Section */
+  /* New Styles for Contact Section */
+  #contact {
+    text-align: center;
+  }
 
-  
+  .contact-info {
+    max-width: 300px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  .contact-info p {
+    margin-bottom: 10px;
+  }
+
+  .email {
+    color: #305580; /* Deep blue color */
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .email:hover {
+    color: #1a3871; /* Darker shade of blue on hover */
+  }
+
+  .phone {
+    color: #305580; /* Rich gold color */
+    font-weight: bold;
+  }
+
