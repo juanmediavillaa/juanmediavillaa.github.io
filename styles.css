@@ -61,12 +61,20 @@
     padding: 2rem 4rem;
   }
   
+  main section:last-child {
+    margin-bottom: 0;
+  }
+
   section {
     margin-bottom: 40px;
   }
-  
+
   h2 {
     margin-bottom: 10px;
+  }
+
+  #about p {
+    text-align: justify;
   }
   
   .project {
@@ -77,31 +85,30 @@
     transition: background-color 0.3s ease;
     background-color: rgba(255, 255, 255, 0.5); 
   }
+
+  .project p {
+    text-align: justify;
+  }
   
   .project:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: rgba(255, 255, 255, 0.75); 
   }
 
-  footer {
-    text-align: center;
-    padding: 10px;
-    color: gray;
+  .contact-info .social-icons {
+    margin-top: 20px; /* Adjust spacing between contact info and social icons */
   }
 
-    /* Add this CSS in your styles.css file */
-  footer .social-icons a {
+  .contact-info .social-icons a {
     margin-right: 15px; /* Add space between each social media icon */
     text-decoration: none; /* Remove underline from anchor elements */
   }
 
-  footer .social-icons img {
+  .contact-info .social-icons img {
     width: 30px; /* Adjust the width to change the size of the icons */
     height: 30px; /* Adjust the height if needed */
   }
 
-  /* New Styles for Contact Section */
-  /* New Styles for Contact Section */
   #contact {
     text-align: center;
   }
@@ -132,3 +139,13 @@
     font-weight: bold;
   }
 
+  footer {
+    text-align: center;
+    padding: 10px;
+    color: gray;
+  }
+
+  
+  footer .social-icons {
+    display: none; 
+  }
