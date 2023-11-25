@@ -17,7 +17,7 @@
   @media (max-width: 768px) {
     #about p,
     .project p {
-      text-align: unset;
+      text-align: left;
     }
   }
   
