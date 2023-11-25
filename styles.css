@@ -14,7 +14,7 @@
     background-repeat: no-repeat;
   }
   
-  @media (max-width: 768px) {
+  @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
     #about p,
     .project p {
       text-align: left;
