@@ -9,17 +9,18 @@
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-image: url('./images/background.jpg');
+    /* background-image: url('./images/background.jpg'); */
+    background-color:ghostwhite;
     background-size: cover;
     background-repeat: no-repeat;
   }
   
-  @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+  @media only screen and (max-device-width: 320px) {
     #about p,
     .project p {
-      text-align: left;
+      text-align: unset;
     }
-  }    
+  }
   
   header {
     color: black;
