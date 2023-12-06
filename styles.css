@@ -1,158 +1,156 @@
 /* Basic Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* General Styles */
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    /* background-image: url('./images/background.jpg'); */
-    background-color: lightsteelblue;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
-  @media only screen and (max-device-width: 320px) {
-    #about p,
-    .project p {
-      text-align: unset;
-    }
-  }
-  
-  header {
-    color: black;
-    padding: 1rem;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  nav {
-  text-align: center; /* Center-align the navigation */
-  }
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  /* background-image: url('./images/background.jpg'); */
+  background-color: lightsteelblue;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-  nav h1 {
-    margin-bottom: 20px; /* Adjust this value as needed */
-  }
-
-  nav ul {
-    list-style: none;
-    display: inline-block;
-    background-color: rgba(255, 255, 255, 0.5); /* White color with 0.5 opacity */
-    border-radius: 10px;
-    padding: 10px;
-    color: black; /* Set the text color to black or your preferred color */
-  }
-
-  nav ul li {
-    display: inline; /* Display list items inline */
-    margin-right: 20px;
-  }
-  
-  nav ul li:last-child {
-    margin-right: 0;
-  }
-
-  nav ul li a {
-    text-decoration: none;
-    color: black;
-    transition: color 0.3s ease; /* Adding transition for smooth effect */
-  }
-  
-  nav ul li a:hover {
-    color: rgb(38, 189, 240); /* Change the color on hover */
-  }
-  
-
-  main {
-    padding: 2rem 4rem;
-  }
-  
-  main section:last-child {
-    margin-bottom: 0;
-  }
-
-  section {
-    margin-bottom: 40px;
-  }
-
-  h2 {
-    margin-bottom: 10px;
-  }
-
-  #about p {
-    text-align: justify;
-  }
-  
-  .project {
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 8px; 
-    transition: box-shadow 0.3s ease; 
-    transition: background-color 0.3s ease;
-    background-color: rgba(255, 255, 255, 0.5); 
-  }
-
+@media only screen and (max-device-width: 320px) {
+  #about p,
   .project p {
-    text-align: justify;
+    text-align: unset;
   }
-  
-  .project:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.75); 
-  }
+}
 
-  .contact-info .social-icons {
-    margin-top: 20px; /* Adjust spacing between contact info and social icons */
-  }
+header {
+  color: black;
+  padding: 1rem;
+}
 
-  .contact-info .social-icons a {
-    margin-right: 15px; /* Add space between each social media icon */
-    text-decoration: none; /* Remove underline from anchor elements */
-  }
+nav {
+  text-align: center; /* Center-align the navigation */
+}
 
-  .contact-info .social-icons img {
-    width: 30px; /* Adjust the width to change the size of the icons */
-    height: 30px; /* Adjust the height if needed */
-  }
+nav h1 {
+  margin-bottom: 20px; /* Adjust this value as needed */
+}
 
-  #contact {
-    text-align: center;
-  }
+nav ul {
+  list-style: none;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.5); /* White color with 0.5 opacity */
+  border-radius: 10px;
+  padding: 10px;
+  color: black; /* Set the text color to black or your preferred color */
+}
 
-  .contact-info {
-    max-width: 300px;
-    margin: 0 auto;
-    line-height: 1.6;
-  }
+nav ul li {
+  display: inline; /* Display list items inline */
+  margin-right: 20px;
+}
 
-  .contact-info p {
-    margin-bottom: 10px;
-  }
+nav ul li:last-child {
+  margin-right: 0;
+}
 
-  .email {
-    color: #305580; /* Deep blue color */
-    font-weight: bold;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease; /* Adding transition for smooth effect */
+}
 
-  .email:hover {
-    color: #1a3871; /* Darker shade of blue on hover */
-  }
+nav ul li a:hover {
+  color: rgb(38, 189, 240); /* Change the color on hover */
+}
 
-  .phone {
-    color: #305580; /* Rich gold color */
-    font-weight: bold;
-  }
+main {
+  padding: 2rem 4rem;
+}
 
-  footer {
-    text-align: center;
-    padding: 10px;
-    color: gray;
-  }
+main section:last-child {
+  margin-bottom: 0;
+}
 
-  
-  footer .social-icons {
-    display: none; 
-  }
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+#about p {
+  text-align: justify;
+}
+
+.project {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+  transition: background-color 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.project p {
+  text-align: justify;
+}
+
+.project:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.contact-info .social-icons {
+  margin-top: 20px; /* Adjust spacing between contact info and social icons */
+}
+
+.contact-info .social-icons a {
+  margin-right: 15px; /* Add space between each social media icon */
+  text-decoration: none; /* Remove underline from anchor elements */
+}
+
+.contact-info .social-icons img {
+  width: 30px; /* Adjust the width to change the size of the icons */
+  height: 30px; /* Adjust the height if needed */
+}
+
+#contact {
+  text-align: center;
+}
+
+.contact-info {
+  max-width: 300px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.email {
+  color: #305580; /* Deep blue color */
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.email:hover {
+  color: #1a3871; /* Darker shade of blue on hover */
+}
+
+.phone {
+  color: #305580; /* Rich gold color */
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  color: gray;
+}
+
+footer .social-icons {
+  display: none;
+}
