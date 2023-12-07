@@ -60,7 +60,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: rgb(38, 189, 240); /* Change the color on hover */
+  color: rgb(25, 25, 255); /* Change the color on hover */
 }
 
 main {
