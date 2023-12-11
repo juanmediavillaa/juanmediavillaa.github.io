@@ -10,7 +10,7 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   /* background-image: url('./images/background.jpg'); */
-  background-color: lightsteelblue;
+  background-color: white;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -25,6 +25,7 @@ body {
 header {
   color: black;
   padding: 1rem;
+  border-bottom: gray solid 0.1px;
 }
 
 nav {
@@ -42,6 +43,7 @@ nav ul {
   border-radius: 10px;
   padding: 10px;
   color: black; /* Set the text color to black or your preferred color */
+  border: gray solid 0.1px;
 }
 
 nav ul li {
@@ -90,6 +92,7 @@ h2 {
   transition: box-shadow 0.3s ease;
   transition: background-color 0.3s ease;
   background-color: rgba(255, 255, 255, 0.5);
+  border: solid gray 0.1px;
 }
 
 .project p {
