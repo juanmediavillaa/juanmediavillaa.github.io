@@ -101,6 +101,10 @@ h2 {
   padding: 0;
 }
 
+.project ul li {
+  text-decoration: none;
+}
+
 /* Remove underline and change link color, indicate as a link */
 .project ul li a {
   text-decoration: none;
