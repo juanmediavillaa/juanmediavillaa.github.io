@@ -25,7 +25,6 @@ body {
 header {
   color: black;
   padding: 1rem;
-  border-bottom: gray solid 0.1px;
 }
 
 nav {
@@ -39,11 +38,10 @@ nav h1 {
 nav ul {
   list-style: none;
   display: inline-block;
-  background-color: rgba(255, 255, 255, 0.5); /* White color with 0.5 opacity */
+  background-color: rgba(0, 0, 0, 0.05); /* White color with 0.5 opacity */
   border-radius: 10px;
   padding: 10px;
   color: black; /* Set the text color to black or your preferred color */
-  border: gray solid 0.1px;
 }
 
 nav ul li {
@@ -91,8 +89,7 @@ h2 {
   border-radius: 8px;
   transition: box-shadow 0.3s ease;
   transition: background-color 0.3s ease;
-  background-color: rgba(255, 255, 255, 0.5);
-  border: solid gray 0.1px;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .project p {
