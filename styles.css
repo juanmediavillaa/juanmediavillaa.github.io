@@ -95,6 +95,26 @@ h2 {
 .project p {
   text-align: justify;
 }
+/* Remove bullet points and padding from the list */
+.project ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Remove underline and change link color, indicate as a link */
+.project ul li a {
+  text-decoration: none;
+  color: #3366cc; /* Change link color */
+  /* Indicate as a link */
+  display: inline-block;
+  border-bottom: 1px solid transparent; /* Add a bottom border to indicate a link */
+  transition: border-bottom 0.3s ease; /* Add a smooth transition on hover */
+}
+
+/* Change border color on hover */
+.project ul li a:hover {
+  border-bottom-color: #3366cc; /* Change border color on hover */
+}
 
 .project:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
