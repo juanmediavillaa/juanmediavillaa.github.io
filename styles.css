@@ -1,8 +1,10 @@
-
-
 body {
   margin: 0 25%;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  text-align: justify;
 }
 
 header {
@@ -88,7 +90,6 @@ hr {
 footer {
   text-align: center;
 }
-
 
 @media (max-width: 768px) {
   body {
