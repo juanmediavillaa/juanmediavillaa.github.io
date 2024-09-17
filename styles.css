@@ -118,3 +118,54 @@ footer {
     height: 30px;
   }
 }
+
+/* Styles for Dark Mode Toggle Button */
+#dark-mode-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5em;
+  margin-left: 15px;
+}
+
+#dark-mode-toggle:focus {
+  outline: none;
+}
+
+body.dark-mode #dark-mode-icon {
+  color: #ffd700; /* Sun color for light mode */
+}
+
+#dark-mode-icon {
+  color: gray; /* Moon color for dark mode */
+}
+
+/* Base Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212; /* Dark background color */
+  color: #e0e0e0; /* Light text color */
+}
+
+/* Adjust header styles for dark mode */
+body.dark-mode header h1 {
+  color: #e0e0e0;
+}
+
+/* Adjust navbar links for dark mode */
+body.dark-mode nav ul li a {
+  color: #e0e0e0; /* Light text color for links */
+}
+
+body.dark-mode nav ul li a:hover {
+  color: #ffffff; /* Hover color for links */
+}
+
+/* Adjust horizontal rule for dark mode */
+body.dark-mode hr {
+  background-color: #333; /* Darker line color */
+}
+
+/* Adjust footer styles for dark mode */
+body.dark-mode footer p {
+  color: #e0e0e0;
+}

@@ -29,3 +29,21 @@ navbarLinks.forEach(link => {
     });
   });
 });
+
+// Dark Mode Toggle Functionality
+const darkModeToggle = document.getElementById('dark-mode-toggle');
+const darkModeIcon = document.getElementById('dark-mode-icon');
+
+darkModeToggle.addEventListener('click', () => {
+  // Toggle the 'dark-mode' class on the body element
+  document.body.classList.toggle('dark-mode');
+
+  // Check the current state of the body to determine the icon
+  if (document.body.classList.contains('dark-mode')) {
+    darkModeIcon.classList.remove('fa-moon');
+    darkModeIcon.classList.add('fa-sun');
+  } else {
+    darkModeIcon.classList.remove('fa-sun');
+    darkModeIcon.classList.add('fa-moon');
+  }
+});
