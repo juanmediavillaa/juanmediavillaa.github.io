@@ -34,16 +34,23 @@ navbarLinks.forEach(link => {
 const darkModeToggle = document.getElementById('dark-mode-toggle');
 const darkModeIcon = document.getElementById('dark-mode-icon');
 
+// Make dark mode the default mode
+document.body.classList.add('dark-mode');
+darkModeIcon.classList.remove('fa-moon');
+darkModeIcon.classList.add('fa-sun');
+
 darkModeToggle.addEventListener('click', () => {
   // Toggle the 'dark-mode' class on the body element
   document.body.classList.toggle('dark-mode');
 
-  // Check the current state of the body to determine the icon
+  // Check the current state of the body to determine the icon and background gradient
   if (document.body.classList.contains('dark-mode')) {
     darkModeIcon.classList.remove('fa-moon');
     darkModeIcon.classList.add('fa-sun');
+    document.body.style.background = 'linear-gradient(270deg, #121212, #333333, #121212)'; // Dark mode gradient
   } else {
     darkModeIcon.classList.remove('fa-sun');
     darkModeIcon.classList.add('fa-moon');
+    document.body.style.background = 'linear-gradient(270deg, #ffffff, #cccccc, #ffffff)'; // Light mode gradient
   }
 });

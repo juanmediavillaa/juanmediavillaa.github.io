@@ -1,6 +1,21 @@
 body {
   margin: 0 25%;
   font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(270deg, #121212, #333333, #121212);
+  background-size: 600% 600%;
+  animation: gradientAnimation 16s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 p {
